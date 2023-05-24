@@ -11,7 +11,16 @@
 }
 
 .big-card__photo > a > img {
+  border-radius: 2px;
   width: 100%;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.big-card__photo > a > img:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  border-radius: 5px;
 }
 
 .big-card__title > a > h1{

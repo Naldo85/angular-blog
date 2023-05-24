@@ -1,7 +1,28 @@
+
 .container__articles {
   margin-top: 30px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-
+  gap: 40px;
 }
+
+.copyright
+{
+    overflow: hidden;
+    padding: 2em 0em;
+    border-top: 20px solid rgba(255, 255, 255, 0.05);
+    text-align: center;
+    background: #1a1b1a;
+}
+.copyright > p
+{
+    letter-spacing: 1px;
+    font-size: 0.90em;
+    color: #ffffff;
+    background-color: #1a1b1a;
+}
+
+
+
+

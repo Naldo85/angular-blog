@@ -10,9 +10,18 @@
 }
 
 .small-card__photo > a > img{
+  border-radius: 2px;
   width: 200px;
   min-width: 200px;
   margin-right: 20px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.small-card__photo > a > img:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  border-radius: 5px;
 }
 
 .small-card__title > a > h1{
